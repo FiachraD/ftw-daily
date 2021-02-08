@@ -232,8 +232,8 @@ const routeConfiguration = () => {
       name: 'ManageListingsPage',
       auth: true,
       authPage: 'LoginPage',
-      component: props => <ManageListingsPage {...props} />,
-      loadData: ManageListingsPage.loadData,
+      component: ManageListingsPage,
+      loadData: pageDataLoadingAPI.ManageListingsPage.loadData,
     },
     {
       path: '/account',
