@@ -1,5 +1,6 @@
 import React from 'react';
 import loadable from '@loadable/component';
+import pageDataLoadingAPI from './containers/pageDataLoadingAPI';
 import { NotFoundPage } from './containers';
 
 // routeConfiguration needs to initialize containers first
