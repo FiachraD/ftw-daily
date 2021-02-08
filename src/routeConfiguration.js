@@ -284,7 +284,7 @@ const routeConfiguration = () => {
     {
       path: '/terms-of-service',
       name: 'TermsOfServicePage',
-      component: props => <TermsOfServicePage {...props} />,
+      component: TermsOfServicePage,
     },
     {
       path: '/privacy-policy',
