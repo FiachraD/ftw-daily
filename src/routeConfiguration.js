@@ -189,8 +189,8 @@ const routeConfiguration = () => {
       name: 'InboxPage',
       auth: true,
       authPage: 'LoginPage',
-      component: props => <InboxPage {...props} />,
-      loadData: InboxPage.loadData,
+      component: InboxPage,
+      loadData: pageDataLoadingAPI.InboxPage.loadData,
     },
     {
       path: '/order/:id',
